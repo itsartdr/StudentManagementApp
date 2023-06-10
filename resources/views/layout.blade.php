@@ -86,7 +86,7 @@
                     <a href="{{ url('/teachers') }}">Teacher</a>
                     <a href="#about">Courses</a>
                     <a href="#about">Enrollment</a>
-                    <a href="#about">Payment</a>
+                    <a href="#about">Payments</a>
                 </div>
                 
             </div>
