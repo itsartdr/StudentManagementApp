@@ -83,14 +83,14 @@
                 <div class="sidebar">
                     <a class="active" href="#home">Home</a>
                     <a href="{{ url('/students') }}">Student</a>
-                    <a href="#contact">Teacher</a>
+                    <a href="{{ url('/teachers') }}">Teacher</a>
                     <a href="#about">Courses</a>
                     <a href="#about">Enrollment</a>
                     <a href="#about">Payment</a>
                 </div>
                 
             </div>
-            <div class="col-md-12">
+            <div class="col-md-9">
                 <div class="content">@yield('content')</div>
             </div>
         </div>
